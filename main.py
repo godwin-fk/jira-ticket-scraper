@@ -10,9 +10,9 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Define your Google credentials
-
 GOOGLE_USERNAME = ''
 GOOGLE_PASSWORD = ''
+
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -77,7 +77,6 @@ try:
         EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[value="Send Push"]'))
     )
     
-    # Click the button
     submit_button.click()
 
     logging.info('Waiting for Jira page to load after Google Sign-In')
