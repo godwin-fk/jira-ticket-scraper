@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
-# Define your Google credentials
+# Define your Google credentials or Okta credentials
 GOOGLE_USERNAME = ''
 GOOGLE_PASSWORD = ''
 
